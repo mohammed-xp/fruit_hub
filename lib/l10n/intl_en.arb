@@ -7,5 +7,20 @@
     "onBoardingSubTitle2": "We offer you the best carefully selected fruits. Check out the details, photos, and reviews to ensure you choose the perfect fruit.",
     "startNow": "Start Now",
     "skip": "Skip",
-    "login": "Login"
+    "login": "Login",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot Password?",
+    "dontHaveAccount": "Don''t have an account?",
+    "createAccount": "Create Account",
+    "or": "or",
+    "loginWithGoogle": "Login with Google",
+    "loginWithApple": "Login with Apple",
+    "loginWithFacebook": "Login with Facebook",
+    "newAccount": "New Account",
+    "fullName": "Full Name",
+    "byCreateingAccount": "By creating an account, you agree to",
+    "ourTermsAndConditions": "our Terms & Conditions",
+    "createANewAccount": "Create a new account",
+    "alreadyHaveAnAccount": "Already have an account?"
 }

@@ -139,6 +139,156 @@ class S {
       args: [],
     );
   }
+
+  /// `Email`
+  String get email {
+    return Intl.message(
+      'Email',
+      name: 'email',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password`
+  String get password {
+    return Intl.message(
+      'Password',
+      name: 'password',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Forgot Password?`
+  String get forgotPassword {
+    return Intl.message(
+      'Forgot Password?',
+      name: 'forgotPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Don''t have an account?`
+  String get dontHaveAccount {
+    return Intl.message(
+      'Don\'\'t have an account?',
+      name: 'dontHaveAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Create Account`
+  String get createAccount {
+    return Intl.message(
+      'Create Account',
+      name: 'createAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `or`
+  String get or {
+    return Intl.message(
+      'or',
+      name: 'or',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login with Google`
+  String get loginWithGoogle {
+    return Intl.message(
+      'Login with Google',
+      name: 'loginWithGoogle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login with Apple`
+  String get loginWithApple {
+    return Intl.message(
+      'Login with Apple',
+      name: 'loginWithApple',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login with Facebook`
+  String get loginWithFacebook {
+    return Intl.message(
+      'Login with Facebook',
+      name: 'loginWithFacebook',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `New Account`
+  String get newAccount {
+    return Intl.message(
+      'New Account',
+      name: 'newAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Full Name`
+  String get fullName {
+    return Intl.message(
+      'Full Name',
+      name: 'fullName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `By creating an account, you agree to`
+  String get byCreateingAccount {
+    return Intl.message(
+      'By creating an account, you agree to',
+      name: 'byCreateingAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `our Terms & Conditions`
+  String get ourTermsAndConditions {
+    return Intl.message(
+      'our Terms & Conditions',
+      name: 'ourTermsAndConditions',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Create a new account`
+  String get createANewAccount {
+    return Intl.message(
+      'Create a new account',
+      name: 'createANewAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Already have an account?`
+  String get alreadyHaveAnAccount {
+    return Intl.message(
+      'Already have an account?',
+      name: 'alreadyHaveAnAccount',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

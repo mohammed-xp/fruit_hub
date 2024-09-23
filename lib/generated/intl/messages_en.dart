@@ -22,14 +22,38 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "alreadyHaveAnAccount":
+            MessageLookupByLibrary.simpleMessage("Already have an account?"),
+        "byCreateingAccount": MessageLookupByLibrary.simpleMessage(
+            "By creating an account, you agree to"),
+        "createANewAccount":
+            MessageLookupByLibrary.simpleMessage("Create a new account"),
+        "createAccount": MessageLookupByLibrary.simpleMessage("Create Account"),
+        "dontHaveAccount":
+            MessageLookupByLibrary.simpleMessage("Don\'\'t have an account?"),
+        "email": MessageLookupByLibrary.simpleMessage("Email"),
+        "forgotPassword":
+            MessageLookupByLibrary.simpleMessage("Forgot Password?"),
         "fruit": MessageLookupByLibrary.simpleMessage("Fruit"),
+        "fullName": MessageLookupByLibrary.simpleMessage("Full Name"),
         "helloIn": MessageLookupByLibrary.simpleMessage("Welcome to"),
         "hub": MessageLookupByLibrary.simpleMessage("HUB"),
         "login": MessageLookupByLibrary.simpleMessage("Login"),
+        "loginWithApple":
+            MessageLookupByLibrary.simpleMessage("Login with Apple"),
+        "loginWithFacebook":
+            MessageLookupByLibrary.simpleMessage("Login with Facebook"),
+        "loginWithGoogle":
+            MessageLookupByLibrary.simpleMessage("Login with Google"),
+        "newAccount": MessageLookupByLibrary.simpleMessage("New Account"),
         "onBoardingSubTitle1": MessageLookupByLibrary.simpleMessage(
             "Discover a unique shopping experience with FruitHUB. Explore our wide range of premium fresh fruits and get the best deals and high quality."),
         "onBoardingSubTitle2": MessageLookupByLibrary.simpleMessage(
             "We offer you the best carefully selected fruits. Check out the details, photos, and reviews to ensure you choose the perfect fruit."),
+        "or": MessageLookupByLibrary.simpleMessage("or"),
+        "ourTermsAndConditions":
+            MessageLookupByLibrary.simpleMessage("our Terms & Conditions"),
+        "password": MessageLookupByLibrary.simpleMessage("Password"),
         "searchAndShop":
             MessageLookupByLibrary.simpleMessage("Search and Shop"),
         "skip": MessageLookupByLibrary.simpleMessage("Skip"),
