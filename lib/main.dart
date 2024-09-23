@@ -31,9 +31,10 @@ class FruitHub extends StatelessWidget {
       title: 'Fruit Hub',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primaryColor: AppColor.primaryColor,
-        // colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        // primaryColor: AppColor.primaryColor,
+        colorScheme: ColorScheme.fromSeed(seedColor: AppColor.primaryColor),
         // useMaterial3: true,
+        scaffoldBackgroundColor: Colors.white,
         fontFamily: 'cairo',
       ),
       onGenerateRoute: onGenerateRoute,
