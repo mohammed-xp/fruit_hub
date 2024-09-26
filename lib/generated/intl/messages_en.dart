@@ -24,6 +24,8 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "alreadyHaveAnAccount":
             MessageLookupByLibrary.simpleMessage("Already have an account?"),
+        "anErrorOccurred": MessageLookupByLibrary.simpleMessage(
+            "An error occurred. Please try again"),
         "byCreateingAccount": MessageLookupByLibrary.simpleMessage(
             "By creating an account, you agree to"),
         "createANewAccount":
@@ -57,6 +59,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "searchAndShop":
             MessageLookupByLibrary.simpleMessage("Search and Shop"),
         "skip": MessageLookupByLibrary.simpleMessage("Skip"),
-        "startNow": MessageLookupByLibrary.simpleMessage("Start Now")
+        "startNow": MessageLookupByLibrary.simpleMessage("Start Now"),
+        "termsAndConditionsIsRequired": MessageLookupByLibrary.simpleMessage(
+            "Terms and Conditions must be agreed to"),
+        "thisFieldIsRequired":
+            MessageLookupByLibrary.simpleMessage("This field is required")
       };
 }

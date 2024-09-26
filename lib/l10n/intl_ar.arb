@@ -22,5 +22,8 @@
     "byCreateingAccount": "من خلال إنشاء حساب ، فإنك توافق على",
     "ourTermsAndConditions": "الشروط والأحكام الخاصة بنا",
     "createANewAccount": "إنشاء حساب جديد",
-    "alreadyHaveAnAccount": "تمتلك حساب بالفعل؟"
+    "alreadyHaveAnAccount": "تمتلك حساب بالفعل؟",
+    "thisFieldIsRequired": "هذا الحقل مطلوب",
+    "termsAndConditionsIsRequired": "يجب الموافقة على الشروط والاحكام",
+    "anErrorOccurred": "حدث خطأ ما. يرجى المحاولة مرة أخرى"
 }

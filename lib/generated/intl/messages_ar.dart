@@ -24,6 +24,8 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "alreadyHaveAnAccount":
             MessageLookupByLibrary.simpleMessage("تمتلك حساب بالفعل؟"),
+        "anErrorOccurred": MessageLookupByLibrary.simpleMessage(
+            "حدث خطأ ما. يرجى المحاولة مرة أخرى"),
         "byCreateingAccount": MessageLookupByLibrary.simpleMessage(
             "من خلال إنشاء حساب ، فإنك توافق على"),
         "createANewAccount":
@@ -56,6 +58,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
         "searchAndShop": MessageLookupByLibrary.simpleMessage("ابحث وتسوق"),
         "skip": MessageLookupByLibrary.simpleMessage("تخط"),
-        "startNow": MessageLookupByLibrary.simpleMessage("ابدأ الآن")
+        "startNow": MessageLookupByLibrary.simpleMessage("ابدأ الآن"),
+        "termsAndConditionsIsRequired": MessageLookupByLibrary.simpleMessage(
+            "يجب الموافقة على الشروط والاحكام"),
+        "thisFieldIsRequired":
+            MessageLookupByLibrary.simpleMessage("هذا الحقل مطلوب")
       };
 }

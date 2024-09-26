@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:dartz/dartz.dart';
 import 'package:fruit_hub/core/errors/exceptions.dart';
 import 'package:fruit_hub/core/errors/failures.dart';
@@ -24,7 +26,8 @@ class AuthRepoImpl implements AuthRepo {
     } on CustomException catch (e) {
       return left(ServerFailure(e.message));
     } catch (e) {
-      return left(ServerFailure('An error occurred. Please try again.'));
+      log('Exception in AuthRepoImpl.createUserWithEmailAndPassword: ${e.toString()}');
+      return left(ServerFailure('An error occurred. Please try again'));
     }
   }
 }

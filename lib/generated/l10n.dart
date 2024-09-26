@@ -289,6 +289,36 @@ class S {
       args: [],
     );
   }
+
+  /// `This field is required`
+  String get thisFieldIsRequired {
+    return Intl.message(
+      'This field is required',
+      name: 'thisFieldIsRequired',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Terms and Conditions must be agreed to`
+  String get termsAndConditionsIsRequired {
+    return Intl.message(
+      'Terms and Conditions must be agreed to',
+      name: 'termsAndConditionsIsRequired',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `An error occurred. Please try again`
+  String get anErrorOccurred {
+    return Intl.message(
+      'An error occurred. Please try again',
+      name: 'anErrorOccurred',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

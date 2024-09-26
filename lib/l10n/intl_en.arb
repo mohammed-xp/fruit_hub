@@ -22,5 +22,8 @@
     "byCreateingAccount": "By creating an account, you agree to",
     "ourTermsAndConditions": "our Terms & Conditions",
     "createANewAccount": "Create a new account",
-    "alreadyHaveAnAccount": "Already have an account?"
+    "alreadyHaveAnAccount": "Already have an account?",
+    "thisFieldIsRequired": "This field is required",
+    "termsAndConditionsIsRequired": "Terms and Conditions must be agreed to",
+    "anErrorOccurred": "An error occurred. Please try again"
 }
