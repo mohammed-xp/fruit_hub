@@ -92,9 +92,8 @@ class _SignupViewBodyState extends State<SignupViewBody> {
                           context, S.of(context).termsAndConditionsIsRequired);
                     }
                   } else {
-                    setState(() {
-                      autovalidateMode = AutovalidateMode.always;
-                    });
+                    autovalidateMode = AutovalidateMode.always;
+                    setState(() {});
                   }
                 },
                 text: S.of(context).createANewAccount,

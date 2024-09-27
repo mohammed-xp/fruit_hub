@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fruit_hub/core/models/on_boarding_model.dart';
 import 'package:fruit_hub/core/utils/app_styles.dart';
-import 'package:fruit_hub/features/auth/presentation/views/login_view.dart';
+import 'package:fruit_hub/features/auth/presentation/views/signin_view.dart';
 import 'package:fruit_hub/generated/l10n.dart';
 import 'package:svg_flutter/svg.dart';
 
@@ -45,7 +45,7 @@ class PageViewItem extends StatelessWidget {
                   onTap: () {
                     Prefs.setBool(kIsOnBoardingViewSeen, true);
                     Navigator.of(context).pushReplacementNamed(
-                      LoginView.routeName,
+                      SigninView.routeName,
                     );
                   },
                   child: Padding(

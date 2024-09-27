@@ -5,7 +5,7 @@ import 'package:fruit_hub/core/services/prefs.dart';
 import 'package:fruit_hub/core/utils/app_color.dart';
 import 'package:fruit_hub/core/utils/app_styles.dart';
 import 'package:fruit_hub/core/widgets/custom_button.dart';
-import 'package:fruit_hub/features/auth/presentation/views/login_view.dart';
+import 'package:fruit_hub/features/auth/presentation/views/signin_view.dart';
 import 'package:fruit_hub/features/on_boarding/presentation/views/widgets/on_boarding_page_view.dart';
 
 import '../../../../../core/models/on_boarding_model.dart';
@@ -119,7 +119,7 @@ class _OnBoardingViewBodyState extends State<OnBoardingViewBody> {
               onPressed: () {
                 Prefs.setBool(kIsOnBoardingViewSeen, true);
                 Navigator.of(context).pushReplacementNamed(
-                  LoginView.routeName,
+                  SigninView.routeName,
                 );
               },
               text: S.of(context).startNow,
