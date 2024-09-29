@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:fruit_hub/constants.dart';
@@ -112,23 +114,31 @@ class _SigninViewBodyState extends State<SigninViewBody> {
               SoicalTextButton(
                 title: S.of(context).loginWithGoogle,
                 image: Assets.imagesGoogleIcon,
-                onPressed: () {},
+                onPressed: () {
+                  context.read<SigninCubit>().signInWithGoogle();
+                },
               ),
               const SizedBox(
                 height: 16,
               ),
-              SoicalTextButton(
-                title: S.of(context).loginWithApple,
-                image: Assets.imagesAppleIcon,
-                onPressed: () {},
-              ),
-              const SizedBox(
-                height: 16,
-              ),
+              Platform.isIOS
+                  ? SoicalTextButton(
+                      title: S.of(context).loginWithApple,
+                      image: Assets.imagesAppleIcon,
+                      onPressed: () {},
+                    )
+                  : const SizedBox(),
+              Platform.isIOS
+                  ? const SizedBox(
+                      height: 16,
+                    )
+                  : const SizedBox(),
               SoicalTextButton(
                 title: S.of(context).loginWithFacebook,
                 image: Assets.imagesFacebookIcon,
-                onPressed: () {},
+                onPressed: () {
+                  context.read<SigninCubit>().signInWithFacebook();
+                },
               ),
             ],
           ),
