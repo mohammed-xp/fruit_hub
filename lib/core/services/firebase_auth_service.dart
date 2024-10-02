@@ -10,6 +10,15 @@ import 'package:google_sign_in/google_sign_in.dart';
 import 'package:sign_in_with_apple/sign_in_with_apple.dart';
 
 class FirebaseAuthService {
+  Future<void> deleteUser() async {
+    try {
+      await FirebaseAuth.instance.currentUser!.delete();
+    } catch (e) {
+      log('Exception in FirebaseAuthService.deleteUser: ${e.toString()}');
+      throw CustomException(message: 'An error occurred. Please try again.');
+    }
+  }
+
   Future<User> createUserWithEmailAndPassword({
     required String email,
     required String password,
