@@ -125,7 +125,9 @@ class _SigninViewBodyState extends State<SigninViewBody> {
                   ? SoicalTextButton(
                       title: S.of(context).loginWithApple,
                       image: Assets.imagesAppleIcon,
-                      onPressed: () {},
+                      onPressed: () {
+                        context.read<SigninCubit>().signInWithApple();
+                      },
                     )
                   : const SizedBox(),
               Platform.isIOS
