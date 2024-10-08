@@ -25,5 +25,7 @@
     "alreadyHaveAnAccount": "تمتلك حساب بالفعل؟",
     "thisFieldIsRequired": "هذا الحقل مطلوب",
     "termsAndConditionsIsRequired": "يجب الموافقة على الشروط والاحكام",
-    "anErrorOccurred": "حدث خطأ ما. يرجى المحاولة مرة أخرى"
+    "anErrorOccurred": "حدث خطأ ما. يرجى المحاولة مرة أخرى",
+    "SignupSuccessPleaseLogin": "تم التسجيل بنجاح، الرجاء تسجيل الدخول",
+    "loginSuccessfully": "تم تسجيل الدخول بنجاح"
 }

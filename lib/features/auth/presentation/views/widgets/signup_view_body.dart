@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:fruit_hub/constants.dart';
-import 'package:fruit_hub/core/helper_functions/build_error_bar.dart';
+import 'package:fruit_hub/core/helper_functions/build_toast.dart';
 import 'package:fruit_hub/core/widgets/custom_button.dart';
 import 'package:fruit_hub/core/widgets/custom_text_form_field.dart';
 import 'package:fruit_hub/features/auth/presentation/managers/signup_cubit/signup_cubit.dart';
@@ -88,8 +88,11 @@ class _SignupViewBodyState extends State<SignupViewBody> {
                             userName,
                           );
                     } else {
-                      buildErrorBar(
-                          context, S.of(context).termsAndConditionsIsRequired);
+                      buildToast(
+                        context,
+                        message: S.of(context).termsAndConditionsIsRequired,
+                        state: ToastStates.ERROR,
+                      );
                     }
                   } else {
                     autovalidateMode = AutovalidateMode.always;

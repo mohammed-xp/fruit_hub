@@ -25,5 +25,7 @@
     "alreadyHaveAnAccount": "Already have an account?",
     "thisFieldIsRequired": "This field is required",
     "termsAndConditionsIsRequired": "Terms and Conditions must be agreed to",
-    "anErrorOccurred": "An error occurred. Please try again"
+    "anErrorOccurred": "An error occurred. Please try again",
+    "SignupSuccessPleaseLogin": "Signup Success, Please Login",
+    "loginSuccessfully": "Login Successfully"
 }
