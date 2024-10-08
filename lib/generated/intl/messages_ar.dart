@@ -40,6 +40,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("نسيت كلمة المرور؟"),
         "fruit": MessageLookupByLibrary.simpleMessage("Fruit"),
         "fullName": MessageLookupByLibrary.simpleMessage("الاسم كامل"),
+        "goodMorning": MessageLookupByLibrary.simpleMessage("صباح الخير!.."),
         "helloIn": MessageLookupByLibrary.simpleMessage("مرحبا بك في"),
         "hub": MessageLookupByLibrary.simpleMessage("HUB"),
         "login": MessageLookupByLibrary.simpleMessage("تسجيل دخول"),
@@ -61,6 +62,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("الشروط والأحكام الخاصة بنا"),
         "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
         "searchAndShop": MessageLookupByLibrary.simpleMessage("ابحث وتسوق"),
+        "searchFor": MessageLookupByLibrary.simpleMessage("ابحث عن..."),
         "skip": MessageLookupByLibrary.simpleMessage("تخط"),
         "startNow": MessageLookupByLibrary.simpleMessage("ابدأ الآن"),
         "termsAndConditionsIsRequired": MessageLookupByLibrary.simpleMessage(

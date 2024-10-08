@@ -40,6 +40,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Forgot Password?"),
         "fruit": MessageLookupByLibrary.simpleMessage("Fruit"),
         "fullName": MessageLookupByLibrary.simpleMessage("Full Name"),
+        "goodMorning": MessageLookupByLibrary.simpleMessage("Good Morning!.."),
         "helloIn": MessageLookupByLibrary.simpleMessage("Welcome to"),
         "hub": MessageLookupByLibrary.simpleMessage("HUB"),
         "login": MessageLookupByLibrary.simpleMessage("Login"),
@@ -62,6 +63,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "password": MessageLookupByLibrary.simpleMessage("Password"),
         "searchAndShop":
             MessageLookupByLibrary.simpleMessage("Search and Shop"),
+        "searchFor": MessageLookupByLibrary.simpleMessage("Search for..."),
         "skip": MessageLookupByLibrary.simpleMessage("Skip"),
         "startNow": MessageLookupByLibrary.simpleMessage("Start Now"),
         "termsAndConditionsIsRequired": MessageLookupByLibrary.simpleMessage(
