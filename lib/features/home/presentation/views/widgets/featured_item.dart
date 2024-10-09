@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg_provider/flutter_svg_provider.dart' as svg;
+import 'package:fruit_hub/constants.dart';
 import 'package:fruit_hub/core/utils/app_images.dart';
 import 'package:fruit_hub/core/utils/app_styles.dart';
 import 'package:fruit_hub/features/home/presentation/views/widgets/featured_item_button.dart';
@@ -10,7 +10,7 @@ class FeaturedItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    double itemWidth = MediaQuery.sizeOf(context).width - (16 + 16);
+    double itemWidth = MediaQuery.sizeOf(context).width - 32;
     return ClipRRect(
       borderRadius: BorderRadius.circular(4),
       child: SizedBox(
@@ -21,25 +21,39 @@ class FeaturedItem extends StatelessWidget {
           child: Stack(
             children: [
               Positioned(
-                left: 0,
+                left: isArabic(context) ? 0 : itemWidth * 0.4,
                 bottom: 0,
                 top: 0,
-                right: itemWidth * 0.4,
+                right: isArabic(context) ? itemWidth * 0.4 : 0,
                 child: Image.asset(
-                  Assets.imagesWatermelonTest,
+                  Assets.imagesFruitsTest,
                   fit: BoxFit.fill,
                 ),
               ),
               Container(
                 width: itemWidth * 0.5,
-                padding: const EdgeInsets.only(right: 25),
-                decoration: const BoxDecoration(
-                  image: DecorationImage(
-                    image: svg.Svg(
-                      Assets.imagesFeaturedItemBackground,
-                    ),
-                    fit: BoxFit.fill,
+                padding: const EdgeInsetsDirectional.only(start: 25),
+                decoration: ShapeDecoration(
+                  color: const Color(0xFF5DB957),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: isArabic(context)
+                        ? const BorderRadius.only(
+                            bottomLeft: Radius.elliptical(15, 55),
+                            topLeft: Radius.elliptical(15, 55),
+                          )
+                        : const BorderRadius.only(
+                            bottomRight: Radius.elliptical(15, 55),
+                            topRight: Radius.elliptical(15, 55),
+                          ),
                   ),
+
+                  // image: DecorationImage(
+                  //   image: svg.Svg(
+                  //     Assets.imagesFeaturedItemBackground,
+                  //   ),
+                  //   fit: BoxFit.fill,
+
+                  // ),
                 ),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
