@@ -64,6 +64,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "searchAndShop":
             MessageLookupByLibrary.simpleMessage("Search and Shop"),
         "searchFor": MessageLookupByLibrary.simpleMessage("Search for..."),
+        "shopNow": MessageLookupByLibrary.simpleMessage("Shop now"),
         "skip": MessageLookupByLibrary.simpleMessage("Skip"),
         "startNow": MessageLookupByLibrary.simpleMessage("Start Now"),
         "termsAndConditionsIsRequired": MessageLookupByLibrary.simpleMessage(

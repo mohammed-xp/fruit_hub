@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/widgets.dart';
 import 'package:fruit_hub/constants.dart';
 import 'package:fruit_hub/core/widgets/custom_search_text_field.dart';
+import 'package:fruit_hub/features/home/presentation/views/widgets/featured_list.dart';
 
 import 'custom_home_app_bar.dart';
 
@@ -22,6 +23,10 @@ class HomeViewBody extends StatelessWidget {
                   height: kTopPadding,
                 ),
                 CustomSearchTextField(),
+                SizedBox(
+                  height: 12,
+                ),
+                FeaturedList(),
               ],
             ),
           )
