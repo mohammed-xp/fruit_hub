@@ -34,6 +34,10 @@ class Assets {
   /// assets/images/google_icon.svg
   static const String imagesGoogleIcon = "assets/images/google_icon.svg";
 
+  /// Assets for imagesHeartIcon
+  /// assets/images/heart_icon.svg
+  static const String imagesHeartIcon = "assets/images/heart_icon.svg";
+
   /// Assets for imagesLogo
   /// assets/images/logo.svg
   static const String imagesLogo = "assets/images/logo.svg";
