@@ -32,5 +32,9 @@
     "searchFor": "Search for...",
     "shopNow": "Shop now",
     "bestSeller": "Best Seller",
-    "more": "More"
+    "more": "More",
+    "home": "Home",
+    "products": "Products",
+    "shoppingCart": "Shopping Cart",
+    "profile": "Profile"
 }

@@ -43,6 +43,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "fullName": MessageLookupByLibrary.simpleMessage("Full Name"),
         "goodMorning": MessageLookupByLibrary.simpleMessage("Good Morning!.."),
         "helloIn": MessageLookupByLibrary.simpleMessage("Welcome to"),
+        "home": MessageLookupByLibrary.simpleMessage("Home"),
         "hub": MessageLookupByLibrary.simpleMessage("HUB"),
         "login": MessageLookupByLibrary.simpleMessage("Login"),
         "loginSuccessfully":
@@ -63,10 +64,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "ourTermsAndConditions":
             MessageLookupByLibrary.simpleMessage("our Terms & Conditions"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
+        "products": MessageLookupByLibrary.simpleMessage("Products"),
+        "profile": MessageLookupByLibrary.simpleMessage("Profile"),
         "searchAndShop":
             MessageLookupByLibrary.simpleMessage("Search and Shop"),
         "searchFor": MessageLookupByLibrary.simpleMessage("Search for..."),
         "shopNow": MessageLookupByLibrary.simpleMessage("Shop now"),
+        "shoppingCart": MessageLookupByLibrary.simpleMessage("Shopping Cart"),
         "skip": MessageLookupByLibrary.simpleMessage("Skip"),
         "startNow": MessageLookupByLibrary.simpleMessage("Start Now"),
         "termsAndConditionsIsRequired": MessageLookupByLibrary.simpleMessage(

@@ -10,6 +10,22 @@ class Assets {
   /// assets/images/apple_icon.svg
   static const String imagesAppleIcon = "assets/images/apple_icon.svg";
 
+  /// Assets for imagesBoldHomeIcon
+  /// assets/images/bold_home_icon.svg
+  static const String imagesBoldHomeIcon = "assets/images/bold_home_icon.svg";
+
+  /// Assets for imagesBoldProductsIcon
+  /// assets/images/bold_products_icon.svg
+  static const String imagesBoldProductsIcon = "assets/images/bold_products_icon.svg";
+
+  /// Assets for imagesBoldShoppingCarIcon
+  /// assets/images/bold_shopping_car_icon.svg
+  static const String imagesBoldShoppingCarIcon = "assets/images/bold_shopping_car_icon.svg";
+
+  /// Assets for imagesBoldUserIcon
+  /// assets/images/bold_user_icon.svg
+  static const String imagesBoldUserIcon = "assets/images/bold_user_icon.svg";
+
   /// Assets for imagesCheckIcon
   /// assets/images/check_icon.svg
   static const String imagesCheckIcon = "assets/images/check_icon.svg";
@@ -37,6 +53,10 @@ class Assets {
   /// Assets for imagesHeartIcon
   /// assets/images/heart_icon.svg
   static const String imagesHeartIcon = "assets/images/heart_icon.svg";
+
+  /// Assets for imagesHomeIcon
+  /// assets/images/home_icon.svg
+  static const String imagesHomeIcon = "assets/images/home_icon.svg";
 
   /// Assets for imagesLogo
   /// assets/images/logo.svg
@@ -66,6 +86,10 @@ class Assets {
   /// assets/images/plant.svg
   static const String imagesPlant = "assets/images/plant.svg";
 
+  /// Assets for imagesProductsIcon
+  /// assets/images/products_icon.svg
+  static const String imagesProductsIcon = "assets/images/products_icon.svg";
+
   /// Assets for imagesProfileImage
   /// assets/images/profile_image.png
   static const String imagesProfileImage = "assets/images/profile_image.png";
@@ -74,9 +98,17 @@ class Assets {
   /// assets/images/search_icon.svg
   static const String imagesSearchIcon = "assets/images/search_icon.svg";
 
+  /// Assets for imagesShoppingCarIcon
+  /// assets/images/shopping_car_icon.svg
+  static const String imagesShoppingCarIcon = "assets/images/shopping_car_icon.svg";
+
   /// Assets for imagesSplashBottom
   /// assets/images/splash_bottom.svg
   static const String imagesSplashBottom = "assets/images/splash_bottom.svg";
+
+  /// Assets for imagesUserIcon
+  /// assets/images/user_icon.svg
+  static const String imagesUserIcon = "assets/images/user_icon.svg";
 
   /// Assets for imagesWatermelonTest
   /// assets/images/watermelon_test.png

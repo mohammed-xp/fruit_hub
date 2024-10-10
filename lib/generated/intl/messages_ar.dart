@@ -43,6 +43,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "fullName": MessageLookupByLibrary.simpleMessage("الاسم كامل"),
         "goodMorning": MessageLookupByLibrary.simpleMessage("صباح الخير!.."),
         "helloIn": MessageLookupByLibrary.simpleMessage("مرحبا بك في"),
+        "home": MessageLookupByLibrary.simpleMessage("الرئيسية"),
         "hub": MessageLookupByLibrary.simpleMessage("HUB"),
         "login": MessageLookupByLibrary.simpleMessage("تسجيل دخول"),
         "loginSuccessfully":
@@ -63,9 +64,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "ourTermsAndConditions":
             MessageLookupByLibrary.simpleMessage("الشروط والأحكام الخاصة بنا"),
         "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
+        "products": MessageLookupByLibrary.simpleMessage("المنتجات"),
+        "profile": MessageLookupByLibrary.simpleMessage("حسابي"),
         "searchAndShop": MessageLookupByLibrary.simpleMessage("ابحث وتسوق"),
         "searchFor": MessageLookupByLibrary.simpleMessage("ابحث عن..."),
         "shopNow": MessageLookupByLibrary.simpleMessage("تسوق الآن"),
+        "shoppingCart": MessageLookupByLibrary.simpleMessage("سلة التسوق"),
         "skip": MessageLookupByLibrary.simpleMessage("تخط"),
         "startNow": MessageLookupByLibrary.simpleMessage("ابدأ الآن"),
         "termsAndConditionsIsRequired": MessageLookupByLibrary.simpleMessage(

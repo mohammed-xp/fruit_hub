@@ -32,5 +32,9 @@
     "searchFor": "ابحث عن...",
     "shopNow": "تسوق الآن",
     "bestSeller": "الأكثر مبيعاً",
-    "more": "المزيد"
+    "more": "المزيد",
+    "home": "الرئيسية",
+    "products": "المنتجات",
+    "shoppingCart": "سلة التسوق",
+    "profile": "حسابي"
 }
