@@ -28,6 +28,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("تمتلك حساب بالفعل؟"),
         "anErrorOccurred": MessageLookupByLibrary.simpleMessage(
             "حدث خطأ ما. يرجى المحاولة مرة أخرى"),
+        "bestSeller": MessageLookupByLibrary.simpleMessage("الأكثر مبيعاً"),
         "byCreateingAccount": MessageLookupByLibrary.simpleMessage(
             "من خلال إنشاء حساب ، فإنك توافق على"),
         "createANewAccount":
@@ -52,6 +53,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("تسجيل بواسطة فيسبوك"),
         "loginWithGoogle":
             MessageLookupByLibrary.simpleMessage("تسجيل بواسطة جوجل"),
+        "more": MessageLookupByLibrary.simpleMessage("المزيد"),
         "newAccount": MessageLookupByLibrary.simpleMessage("حساب جديد"),
         "onBoardingSubTitle1": MessageLookupByLibrary.simpleMessage(
             "اكتشف تجربة تسوق فريدة مع FruitHUB. استكشف مجموعتنا الواسعة من الفواكه الطازجة الممتازة واحصل على أفضل العروض والجودة العالية."),

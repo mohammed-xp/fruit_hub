@@ -28,6 +28,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Already have an account?"),
         "anErrorOccurred": MessageLookupByLibrary.simpleMessage(
             "An error occurred. Please try again"),
+        "bestSeller": MessageLookupByLibrary.simpleMessage("Best Seller"),
         "byCreateingAccount": MessageLookupByLibrary.simpleMessage(
             "By creating an account, you agree to"),
         "createANewAccount":
@@ -52,6 +53,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Login with Facebook"),
         "loginWithGoogle":
             MessageLookupByLibrary.simpleMessage("Login with Google"),
+        "more": MessageLookupByLibrary.simpleMessage("More"),
         "newAccount": MessageLookupByLibrary.simpleMessage("New Account"),
         "onBoardingSubTitle1": MessageLookupByLibrary.simpleMessage(
             "Discover a unique shopping experience with FruitHUB. Explore our wide range of premium fresh fruits and get the best deals and high quality."),
