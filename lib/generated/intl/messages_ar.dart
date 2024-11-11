@@ -37,6 +37,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "dontHaveAccount":
             MessageLookupByLibrary.simpleMessage("ليس لديك حساب؟"),
         "email": MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
+        "failerToGetProducts": MessageLookupByLibrary.simpleMessage(
+            "حدث خطأ في الحصول على المنتجات"),
         "forgotPassword":
             MessageLookupByLibrary.simpleMessage("نسيت كلمة المرور؟"),
         "fruit": MessageLookupByLibrary.simpleMessage("Fruit"),

@@ -37,5 +37,6 @@
     "home": "Home",
     "products": "Products",
     "shoppingCart": "Shopping Cart",
-    "profile": "Profile"
+    "profile": "Profile",
+    "failerToGetProducts": "Failed to get products"
 }

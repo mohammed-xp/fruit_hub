@@ -439,6 +439,16 @@ class S {
       args: [],
     );
   }
+
+  /// `Failed to get products`
+  String get failerToGetProducts {
+    return Intl.message(
+      'Failed to get products',
+      name: 'failerToGetProducts',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

@@ -37,6 +37,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "dontHaveAccount":
             MessageLookupByLibrary.simpleMessage("Don\'\'t have an account?"),
         "email": MessageLookupByLibrary.simpleMessage("Email"),
+        "failerToGetProducts":
+            MessageLookupByLibrary.simpleMessage("Failed to get products"),
         "forgotPassword":
             MessageLookupByLibrary.simpleMessage("Forgot Password?"),
         "fruit": MessageLookupByLibrary.simpleMessage("Fruit"),
