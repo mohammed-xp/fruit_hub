@@ -7,3 +7,5 @@ const double kTopPadding = 16.0;
 bool isArabic(context) => Localizations.localeOf(context).languageCode == 'ar';
 
 const String kIsOnBoardingViewSeen = 'isOnBoardingViewSeen';
+
+const String kUserData = 'userData';

@@ -350,6 +350,16 @@ class S {
     );
   }
 
+  /// `Good Night!..`
+  String get goodNight {
+    return Intl.message(
+      'Good Night!..',
+      name: 'goodNight',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Search for...`
   String get searchFor {
     return Intl.message(

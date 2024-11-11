@@ -155,4 +155,8 @@ class FirebaseAuthService {
     return (await FirebaseAuth.instance.signInWithCredential(oauthCredential))
         .user!;
   }
+
+  bool isUserSignedIn() {
+    return FirebaseAuth.instance.currentUser != null;
+  }
 }

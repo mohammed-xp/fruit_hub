@@ -42,6 +42,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "fruit": MessageLookupByLibrary.simpleMessage("Fruit"),
         "fullName": MessageLookupByLibrary.simpleMessage("Full Name"),
         "goodMorning": MessageLookupByLibrary.simpleMessage("Good Morning!.."),
+        "goodNight": MessageLookupByLibrary.simpleMessage("Good Night!.."),
         "helloIn": MessageLookupByLibrary.simpleMessage("Welcome to"),
         "home": MessageLookupByLibrary.simpleMessage("Home"),
         "hub": MessageLookupByLibrary.simpleMessage("HUB"),

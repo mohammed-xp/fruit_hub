@@ -18,7 +18,7 @@ class SignupView extends StatelessWidget {
     return BlocProvider(
       create: (context) => SignupCubit(getIt<AuthRepo>()),
       child: Scaffold(
-        appBar: buildAppBar(context, title: S.of(context).newAccount),
+        appBar: CustomAppBar(context, title: S.of(context).newAccount),
         body: const SignupViewBodyBloc(),
       ),
     );

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:svg_flutter/svg.dart';
-
+import 'package:fruit_hub/core/helper_functions/get_function.dart';
+import 'package:fruit_hub/core/widgets/notification_widget.dart';
 import '../../../../../core/utils/app_images.dart';
 import '../../../../../core/utils/app_styles.dart';
 import '../../../../../generated/l10n.dart';
@@ -13,25 +13,18 @@ class CustomHomeAppBar extends StatelessWidget {
     return ListTile(
       leading: Image.asset(Assets.imagesProfileImage),
       title: Text(
-        S.of(context).goodMorning,
+        DateTime.now().hour >= 12
+            ? S.of(context).goodNight
+            : S.of(context).goodMorning,
         style: AppStyles.styleRegular16(context).copyWith(
           color: const Color(0xff949D9E),
         ),
       ),
       subtitle: Text(
-        'محمد عادل',
+        getUser().name,
         style: AppStyles.styleBold16(context),
       ),
-      trailing: Container(
-        decoration: const ShapeDecoration(
-          color: Color(0xFFEEF8ED),
-          shape: OvalBorder(),
-        ),
-        child: Padding(
-          padding: const EdgeInsets.all(7.0),
-          child: SvgPicture.asset(Assets.imagesNotification),
-        ),
-      ),
+      trailing: const NotificationWidget(),
     );
   }
 }
