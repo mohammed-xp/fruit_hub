@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:fruit_hub/constants.dart';
 import 'package:fruit_hub/core/services/firebase_auth_service.dart';
 import 'package:fruit_hub/features/auth/presentation/views/signin_view.dart';
-import 'package:fruit_hub/features/home/presentation/views/home_view.dart';
+import 'package:fruit_hub/features/home/presentation/views/main_view.dart';
 import 'package:fruit_hub/features/splash/presentation/views/widgets/splash_view_body.dart';
 
 import '../../../../core/services/prefs.dart';
@@ -38,7 +38,7 @@ class _SplashViewState extends State<SplashView> {
         bool isUserSignedIn = FirebaseAuthService().isUserSignedIn();
 
         if (isUserSignedIn) {
-          Navigator.pushReplacementNamed(context, HomeView.routeName);
+          Navigator.pushReplacementNamed(context, MainView.routeName);
         } else {
           Navigator.pushReplacementNamed(context, SigninView.routeName);
         }

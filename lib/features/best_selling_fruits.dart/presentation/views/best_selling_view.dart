@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:fruit_hub/core/utils/app_styles.dart';
 import 'package:fruit_hub/core/widgets/custom_app_bar.dart';
 import 'package:fruit_hub/features/best_selling_fruits.dart/presentation/views/widgets/best_selling_view_body.dart';
 import 'package:fruit_hub/generated/l10n.dart';

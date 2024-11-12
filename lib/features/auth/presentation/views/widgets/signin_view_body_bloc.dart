@@ -5,7 +5,7 @@ import 'package:fruit_hub/features/auth/presentation/managers/signin_cubit/signi
 import '../../../../../core/helper_functions/build_toast.dart';
 import '../../../../../core/widgets/custom_progress.dart';
 import '../../../../../generated/l10n.dart';
-import '../../../../home/presentation/views/home_view.dart';
+import '../../../../home/presentation/views/main_view.dart';
 import 'signin_view_body.dart';
 
 class SigninViewBodyBloc extends StatelessWidget {
@@ -24,7 +24,7 @@ class SigninViewBodyBloc extends StatelessWidget {
             state: ToastStates.SUCCESS,
           );
 
-          Navigator.pushNamed(context, HomeView.routeName);
+          Navigator.pushNamed(context, MainView.routeName);
         }
 
         if (state is SigninFailure) {

@@ -103,6 +103,8 @@ class AuthRepoImpl implements AuthRepo {
         log('addUserData');
       }
 
+      await saveUserData(user: userEntity);
+
       return right(userEntity);
     } catch (e) {
       await deleteUser(user);
@@ -120,6 +122,8 @@ class AuthRepoImpl implements AuthRepo {
       var userEntity = UserModel.fromFirebaseUser(user);
 
       await addUserData(user: userEntity);
+
+      await saveUserData(user: userEntity);
 
       return right(userEntity);
     } catch (e) {
