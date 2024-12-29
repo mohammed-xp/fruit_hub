@@ -1,5 +1,5 @@
-import 'dart:io';
 import 'package:fruit_hub/core/entities/product_entity.dart';
+import 'package:fruit_hub/core/helper_functions/get_average_rating.dart';
 import 'package:fruit_hub/core/models/review_model.dart';
 
 class ProductModel {
@@ -8,13 +8,13 @@ class ProductModel {
   final num price;
   final String code;
   final bool isFeatured;
-  File? image;
+
   String? imageUrl;
   final int expirationMonths;
   final bool isOrganic;
   final int numOfCalories;
   final int unitAmount;
-  final num averageRating = 0;
+  final num averageRating;
   final num ratingCount = 0;
   final List<ReviewModel> reviews;
   final num sellingCount;
@@ -25,12 +25,12 @@ class ProductModel {
     required this.price,
     required this.code,
     required this.isFeatured,
-    this.image,
     this.imageUrl,
     required this.expirationMonths,
     required this.isOrganic,
     required this.numOfCalories,
     required this.unitAmount,
+    required this.averageRating,
     required this.reviews,
     required this.sellingCount,
   });
@@ -48,6 +48,7 @@ class ProductModel {
       isOrganic: json['isOrganic'],
       numOfCalories: json['numOfCalories'],
       unitAmount: json['unitAmount'],
+      averageRating: getAverageRating(List.from(json['reviews'])),
       reviews: (json['reviews'] as List<dynamic>)
           .map((e) => ReviewModel.fromJson(e))
           .toList(),

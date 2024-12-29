@@ -1,12 +1,15 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:fruit_hub/core/entities/product_entity.dart';
 import 'package:fruit_hub/core/utils/app_color.dart';
 import 'package:fruit_hub/core/utils/app_images.dart';
 import 'package:fruit_hub/core/utils/app_styles.dart';
+import 'package:fruit_hub/core/widgets/custom_network_image.dart';
 import 'package:svg_flutter/svg_flutter.dart';
 
 class FruitItem extends StatelessWidget {
-  const FruitItem({super.key});
+  const FruitItem({super.key, required this.productEntity});
+
+  final ProductEntity productEntity;
 
   @override
   Widget build(BuildContext context) {
@@ -17,23 +20,25 @@ class FruitItem extends StatelessWidget {
       ),
       child: Stack(
         children: [
-          IconButton(
-            onPressed: () {},
-            icon: SvgPicture.asset(
-              Assets.imagesHeartIcon,
-            ),
-          ),
           Column(
             children: [
-              Image.asset(
-                Assets.imagesWatermelonTest,
-              ),
+              productEntity.imageUrl != null
+                  ? Flexible(
+                      child: CustomNetworkImage(
+                        imageUrl: productEntity.imageUrl!,
+                      ),
+                    )
+                  : Container(
+                      color: Colors.white,
+                      height: 100,
+                      width: 100,
+                    ),
               const SizedBox(
                 height: 24,
               ),
               ListTile(
                 title: Text(
-                  "بطيخ",
+                  productEntity.name,
                   style: AppStyles.styleSemiBold13(context).copyWith(
                     color: Colors.black,
                   ),
@@ -42,7 +47,7 @@ class FruitItem extends StatelessWidget {
                   TextSpan(
                     children: [
                       TextSpan(
-                        text: "20 جنيه",
+                        text: productEntity.price.toString(),
                         style: AppStyles.styleBold13(context).copyWith(
                           color: AppColor.secendaryColor,
                         ),
@@ -54,7 +59,7 @@ class FruitItem extends StatelessWidget {
                         ),
                       ),
                       TextSpan(
-                        text: "كيلو",
+                        text: "${productEntity.unitAmount}",
                         style: AppStyles.styleSemiBold13(context).copyWith(
                           color: AppColor.lightSecendaryColor,
                         ),
@@ -71,7 +76,13 @@ class FruitItem extends StatelessWidget {
                 ),
               ),
             ],
-          )
+          ),
+          IconButton(
+            onPressed: () {},
+            icon: SvgPicture.asset(
+              Assets.imagesHeartIcon,
+            ),
+          ),
         ],
       ),
     );
