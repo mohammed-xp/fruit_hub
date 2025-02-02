@@ -7,7 +7,7 @@ import 'package:fruit_hub/features/home/presentation/views/widgets/best_selling_
 import 'package:fruit_hub/features/home/presentation/views/widgets/custom_home_app_bar.dart';
 import 'package:fruit_hub/features/home/presentation/views/widgets/featured_list.dart';
 
-import 'best_selling_grid_view_bloc.dart';
+import 'products_grid_view_bloc.dart';
 
 class HomeViewBody extends StatefulWidget {
   const HomeViewBody({
@@ -53,7 +53,7 @@ class _HomeViewBodyState extends State<HomeViewBody> {
               ],
             ),
           ),
-          BestSellingGridViewBloc(),
+          ProductsGridViewBloc(),
         ],
       ),
     );

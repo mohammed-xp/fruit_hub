@@ -5,10 +5,10 @@ import 'package:fruit_hub/core/helper_functions/get_dummy_product.dart';
 import 'package:fruit_hub/core/widgets/custom_error_widget.dart';
 import 'package:skeletonizer/skeletonizer.dart';
 
-import 'best_selling_grid_view.dart';
+import 'products_grid_view.dart';
 
-class BestSellingGridViewBloc extends StatelessWidget {
-  const BestSellingGridViewBloc({
+class ProductsGridViewBloc extends StatelessWidget {
+  const ProductsGridViewBloc({
     super.key,
   });
 
@@ -17,7 +17,7 @@ class BestSellingGridViewBloc extends StatelessWidget {
     return BlocBuilder<ProductsCubit, ProductsState>(
       builder: (context, state) {
         if (state is ProductsSuccess) {
-          return BestSellingGridView(
+          return ProductsGridView(
             products: state.products,
           );
         } else if (state is ProductsFailer) {
@@ -29,7 +29,7 @@ class BestSellingGridViewBloc extends StatelessWidget {
             enabled: true,
             ignoreContainers: false,
             containersColor: Colors.white,
-            child: BestSellingGridView(
+            child: ProductsGridView(
               products: getDummyProducts(),
             ),
           );

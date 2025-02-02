@@ -38,8 +38,9 @@ class ProductsRepoImpl extends ProductsRepo {
     try {
       var data =
           await databaseService.getData(path: BackendEndpoint.getProducts);
-      List<ProductEntity> products =
-          data.map((e) => ProductModel.fromJson(e).toEntity()).toList();
+      List<ProductEntity> products = (data as List<dynamic>)
+          .map((e) => ProductModel.fromJson(e).toEntity())
+          .toList();
       return Right(products);
     } catch (e) {
       return Left(ServerFailure(S.of(context).failerToGetProducts));

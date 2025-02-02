@@ -25,12 +25,16 @@ class _MainViewState extends State<MainView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(
-        child: _views.elementAt(_selectedIndex),
-      ),
       bottomNavigationBar: CustomBottomNavigationBar(
         currentIndex: _selectedIndex,
         onTap: _onItemTapped,
+      ),
+      body: SafeArea(
+        //child: _views.elementAt(_selectedIndex),
+        child: IndexedStack(
+          index: _selectedIndex,
+          children: _views,
+        ),
       ),
     );
   }

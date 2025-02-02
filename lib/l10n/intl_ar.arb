@@ -38,5 +38,6 @@
     "products": "المنتجات",
     "shoppingCart": "سلة التسوق",
     "profile": "حسابي",
-    "failerToGetProducts": "حدث خطأ في الحصول على المنتجات"
+    "failerToGetProducts": "حدث خطأ في الحصول على المنتجات",
+    "results": "نتائج"
 }
