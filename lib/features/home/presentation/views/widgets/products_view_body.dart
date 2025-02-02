@@ -5,7 +5,6 @@ import 'package:fruit_hub/core/cubits/products_cubit/products_cubit.dart';
 import 'package:fruit_hub/core/widgets/custom_app_bar.dart';
 import 'package:fruit_hub/core/widgets/custom_search_text_field.dart';
 import 'package:fruit_hub/features/home/presentation/views/widgets/products_grid_view_bloc.dart';
-import 'package:fruit_hub/features/home/presentation/views/widgets/custom_home_app_bar.dart';
 import 'package:fruit_hub/features/home/presentation/views/widgets/products_view_header.dart';
 import 'package:fruit_hub/generated/l10n.dart';
 
