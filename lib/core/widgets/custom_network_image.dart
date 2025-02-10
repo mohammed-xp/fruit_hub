@@ -19,9 +19,9 @@ class CustomNetworkImage extends StatelessWidget {
         child: Container(color: Colors.red, width: 100, height: 100),
       )),
       errorWidget: (context, url, error) => Icon(
-        Icons.error,
+        Icons.image_not_supported_rounded,
         color: Colors.grey[400],
-        size: 130,
+        // size: 100,
       ),
     );
   }

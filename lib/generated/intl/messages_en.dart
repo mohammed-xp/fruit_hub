@@ -24,6 +24,8 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "SignupSuccessPleaseLogin": MessageLookupByLibrary.simpleMessage(
             "Signup Success, Please Login"),
+        "YouHaveNoProductsInYourCart": MessageLookupByLibrary.simpleMessage(
+            "You have no products in your shopping cart"),
         "alreadyHaveAnAccount":
             MessageLookupByLibrary.simpleMessage("Already have an account?"),
         "anErrorOccurred": MessageLookupByLibrary.simpleMessage(
@@ -31,6 +33,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "bestSeller": MessageLookupByLibrary.simpleMessage("Best Seller"),
         "byCreateingAccount": MessageLookupByLibrary.simpleMessage(
             "By creating an account, you agree to"),
+        "cart": MessageLookupByLibrary.simpleMessage("Cart"),
         "createANewAccount":
             MessageLookupByLibrary.simpleMessage("Create a new account"),
         "createAccount": MessageLookupByLibrary.simpleMessage("Create Account"),
@@ -68,6 +71,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("our Terms & Conditions"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
         "products": MessageLookupByLibrary.simpleMessage("Products"),
+        "productsInYourCart": MessageLookupByLibrary.simpleMessage(
+            "products in your shopping cart"),
         "profile": MessageLookupByLibrary.simpleMessage("Profile"),
         "results": MessageLookupByLibrary.simpleMessage("Results"),
         "searchAndShop":
@@ -80,6 +85,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "termsAndConditionsIsRequired": MessageLookupByLibrary.simpleMessage(
             "Terms and Conditions must be agreed to"),
         "thisFieldIsRequired":
-            MessageLookupByLibrary.simpleMessage("This field is required")
+            MessageLookupByLibrary.simpleMessage("This field is required"),
+        "youHave": MessageLookupByLibrary.simpleMessage("You have")
       };
 }

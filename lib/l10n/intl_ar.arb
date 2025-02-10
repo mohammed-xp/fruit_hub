@@ -39,5 +39,9 @@
     "shoppingCart": "سلة التسوق",
     "profile": "حسابي",
     "failerToGetProducts": "حدث خطأ في الحصول على المنتجات",
-    "results": "نتائج"
+    "results": "نتائج",
+    "youHave": "لديك",
+    "productsInYourCart": "منتجات في سلة التسوق الخاصة بك",
+    "YouHaveNoProductsInYourCart": "ليس لديك منتجات في سلة التسوق الخاصة بك",
+    "cart": "السلة"
 }

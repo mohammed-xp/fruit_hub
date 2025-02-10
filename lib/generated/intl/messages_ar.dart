@@ -24,6 +24,8 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "SignupSuccessPleaseLogin": MessageLookupByLibrary.simpleMessage(
             "تم التسجيل بنجاح، الرجاء تسجيل الدخول"),
+        "YouHaveNoProductsInYourCart": MessageLookupByLibrary.simpleMessage(
+            "ليس لديك منتجات في سلة التسوق الخاصة بك"),
         "alreadyHaveAnAccount":
             MessageLookupByLibrary.simpleMessage("تمتلك حساب بالفعل؟"),
         "anErrorOccurred": MessageLookupByLibrary.simpleMessage(
@@ -31,6 +33,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "bestSeller": MessageLookupByLibrary.simpleMessage("الأكثر مبيعاً"),
         "byCreateingAccount": MessageLookupByLibrary.simpleMessage(
             "من خلال إنشاء حساب ، فإنك توافق على"),
+        "cart": MessageLookupByLibrary.simpleMessage("السلة"),
         "createANewAccount":
             MessageLookupByLibrary.simpleMessage("إنشاء حساب جديد"),
         "createAccount": MessageLookupByLibrary.simpleMessage("قم بإنشاء حساب"),
@@ -68,6 +71,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("الشروط والأحكام الخاصة بنا"),
         "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
         "products": MessageLookupByLibrary.simpleMessage("المنتجات"),
+        "productsInYourCart": MessageLookupByLibrary.simpleMessage(
+            "منتجات في سلة التسوق الخاصة بك"),
         "profile": MessageLookupByLibrary.simpleMessage("حسابي"),
         "results": MessageLookupByLibrary.simpleMessage("نتائج"),
         "searchAndShop": MessageLookupByLibrary.simpleMessage("ابحث وتسوق"),
@@ -79,6 +84,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "termsAndConditionsIsRequired": MessageLookupByLibrary.simpleMessage(
             "يجب الموافقة على الشروط والاحكام"),
         "thisFieldIsRequired":
-            MessageLookupByLibrary.simpleMessage("هذا الحقل مطلوب")
+            MessageLookupByLibrary.simpleMessage("هذا الحقل مطلوب"),
+        "youHave": MessageLookupByLibrary.simpleMessage("لديك")
       };
 }

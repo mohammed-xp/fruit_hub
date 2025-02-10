@@ -9,11 +9,15 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
     super.key,
     required this.title,
     this.navigationIcon = true,
+    this.iconBackButton = false,
+    this.onPressedIconBackButton,
   });
 
   final String title;
 
   final bool? navigationIcon;
+  final bool? iconBackButton;
+  final void Function()? onPressedIconBackButton;
 
   @override
   Widget build(BuildContext context) {
@@ -25,6 +29,18 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
         style: AppStyles.styleBold19(context),
       ),
       centerTitle: true,
+      leading: iconBackButton ?? false
+          ? IconButton(
+              icon: const Icon(Icons.arrow_back_ios_new),
+              onPressed: () {
+                if (onPressedIconBackButton != null) {
+                  onPressedIconBackButton!();
+                } else {
+                  Navigator.of(context).pop();
+                }
+              },
+            )
+          : null,
       actions: [
         if (navigationIcon ?? false)
           const Padding(

@@ -39,5 +39,9 @@
     "shoppingCart": "Shopping Cart",
     "profile": "Profile",
     "failerToGetProducts": "Failed to get products",
-    "results": "Results"
+    "results": "Results",
+    "youHave": "You have",
+    "productsInYourCart": "products in your shopping cart",
+    "YouHaveNoProductsInYourCart": "You have no products in your shopping cart",
+    "cart": "Cart"
 }
