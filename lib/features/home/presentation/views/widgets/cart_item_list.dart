@@ -16,7 +16,7 @@ class CartItemList extends StatelessWidget {
       // physics: const BouncingScrollPhysics(),
       separatorBuilder: (context, index) => const CustomDivider(),
       itemBuilder: (context, index) => Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 5),
         child: CartItem(
           cartItemEntity: cartItems[index],
         ),

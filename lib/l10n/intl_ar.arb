@@ -43,5 +43,10 @@
     "youHave": "لديك",
     "productsInYourCart": "منتجات في سلة التسوق الخاصة بك",
     "YouHaveNoProductsInYourCart": "ليس لديك منتجات في سلة التسوق الخاصة بك",
-    "cart": "السلة"
+    "cart": "السلة",
+    "kg": "كجم",
+    "sdg": "جنيه",
+    "addProductInCart": "تمت إضافة المنتج إلى السلة",
+    "payment": "الدفع",
+    "removeProductFromCart": "تمت إزالة المنتج من السلة"
 }

@@ -43,5 +43,10 @@
     "youHave": "You have",
     "productsInYourCart": "products in your shopping cart",
     "YouHaveNoProductsInYourCart": "You have no products in your shopping cart",
-    "cart": "Cart"
+    "cart": "Cart",
+    "kg": "kg",
+    "sdg": "SDG",
+    "addProductInCart": "Product has been added to the cart",
+    "payment": "Payment",
+    "removeProductFromCart": "Product has been removed from the cart"
 }

@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:fruit_hub/core/widgets/custom_button.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:fruit_hub/features/home/presentation/cubits/cart_cubit/cart_cubit.dart';
 import 'package:fruit_hub/features/home/presentation/views/widgets/cart_item_list.dart';
 import 'package:fruit_hub/features/home/presentation/views/widgets/cart_view_header.dart';
 
 import '../../../../../constants.dart';
 import '../../../../../core/widgets/custom_app_bar.dart';
 import '../../../../../generated/l10n.dart';
+import 'cart_view_button.dart';
 import 'custom_divider.dart';
 
 class CartViewBody extends StatelessWidget {
@@ -37,14 +39,18 @@ class CartViewBody extends StatelessWidget {
                 ],
               ),
             ),
-            const SliverToBoxAdapter(
-              child: CustomDivider(),
+            SliverToBoxAdapter(
+              child: context.read<CartCubit>().cartEntity.cartItems.isEmpty
+                  ? const SizedBox()
+                  : const CustomDivider(),
             ),
-            const CartItemList(
-              cartItems: [],
+            CartItemList(
+              cartItems: context.read<CartCubit>().cartEntity.cartItems,
             ),
-            const SliverToBoxAdapter(
-              child: CustomDivider(),
+            SliverToBoxAdapter(
+              child: context.read<CartCubit>().cartEntity.cartItems.isEmpty
+                  ? const SizedBox()
+                  : const CustomDivider(),
             ),
           ],
         ),
@@ -52,9 +58,8 @@ class CartViewBody extends StatelessWidget {
           bottom: MediaQuery.of(context).size.height * 0.07,
           left: 16,
           right: 16,
-          child: CustomButton(
+          child: CartViewButton(
             onPressed: () {},
-            text: 'الدفع 22 جنيه',
           ),
         ),
       ],

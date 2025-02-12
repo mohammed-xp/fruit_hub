@@ -499,6 +499,56 @@ class S {
       args: [],
     );
   }
+
+  /// `kg`
+  String get kg {
+    return Intl.message(
+      'kg',
+      name: 'kg',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `SDG`
+  String get sdg {
+    return Intl.message(
+      'SDG',
+      name: 'sdg',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Product has been added to the cart`
+  String get addProductInCart {
+    return Intl.message(
+      'Product has been added to the cart',
+      name: 'addProductInCart',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Payment`
+  String get payment {
+    return Intl.message(
+      'Payment',
+      name: 'payment',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Product has been removed from the cart`
+  String get removeProductFromCart {
+    return Intl.message(
+      'Product has been removed from the cart',
+      name: 'removeProductFromCart',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

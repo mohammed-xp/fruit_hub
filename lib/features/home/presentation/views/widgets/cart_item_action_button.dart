@@ -16,19 +16,22 @@ class CartItemActionButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: onPressed,
-      child: Container(
-        width: 24,
-        height: 24,
-        padding: const EdgeInsets.all(2),
-        decoration: ShapeDecoration(
-          color: color,
+    return SizedBox(
+      width: 24,
+      height: 24,
+      child: IconButton(
+        onPressed: onPressed,
+        iconSize: 18,
+        // padding: EdgeInsets.zero,
+        style: IconButton.styleFrom(
+          padding: EdgeInsets.zero,
+          // minimumSize: const Size(24, 24),
+          backgroundColor: color,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(100),
           ),
         ),
-        child: FittedBox(
+        icon: FittedBox(
           child: Icon(
             icon,
             color: iconColor,

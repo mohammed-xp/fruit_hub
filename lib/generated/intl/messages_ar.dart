@@ -26,6 +26,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "تم التسجيل بنجاح، الرجاء تسجيل الدخول"),
         "YouHaveNoProductsInYourCart": MessageLookupByLibrary.simpleMessage(
             "ليس لديك منتجات في سلة التسوق الخاصة بك"),
+        "addProductInCart":
+            MessageLookupByLibrary.simpleMessage("تمت إضافة المنتج إلى السلة"),
         "alreadyHaveAnAccount":
             MessageLookupByLibrary.simpleMessage("تمتلك حساب بالفعل؟"),
         "anErrorOccurred": MessageLookupByLibrary.simpleMessage(
@@ -51,6 +53,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "helloIn": MessageLookupByLibrary.simpleMessage("مرحبا بك في"),
         "home": MessageLookupByLibrary.simpleMessage("الرئيسية"),
         "hub": MessageLookupByLibrary.simpleMessage("HUB"),
+        "kg": MessageLookupByLibrary.simpleMessage("كجم"),
         "login": MessageLookupByLibrary.simpleMessage("تسجيل دخول"),
         "loginSuccessfully":
             MessageLookupByLibrary.simpleMessage("تم تسجيل الدخول بنجاح"),
@@ -70,11 +73,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "ourTermsAndConditions":
             MessageLookupByLibrary.simpleMessage("الشروط والأحكام الخاصة بنا"),
         "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
+        "payment": MessageLookupByLibrary.simpleMessage("الدفع"),
         "products": MessageLookupByLibrary.simpleMessage("المنتجات"),
         "productsInYourCart": MessageLookupByLibrary.simpleMessage(
             "منتجات في سلة التسوق الخاصة بك"),
         "profile": MessageLookupByLibrary.simpleMessage("حسابي"),
+        "removeProductFromCart":
+            MessageLookupByLibrary.simpleMessage("تمت إزالة المنتج من السلة"),
         "results": MessageLookupByLibrary.simpleMessage("نتائج"),
+        "sdg": MessageLookupByLibrary.simpleMessage("جنيه"),
         "searchAndShop": MessageLookupByLibrary.simpleMessage("ابحث وتسوق"),
         "searchFor": MessageLookupByLibrary.simpleMessage("ابحث عن..."),
         "shopNow": MessageLookupByLibrary.simpleMessage("تسوق الآن"),

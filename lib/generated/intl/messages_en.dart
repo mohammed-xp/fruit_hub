@@ -26,6 +26,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "Signup Success, Please Login"),
         "YouHaveNoProductsInYourCart": MessageLookupByLibrary.simpleMessage(
             "You have no products in your shopping cart"),
+        "addProductInCart": MessageLookupByLibrary.simpleMessage(
+            "Product has been added to the cart"),
         "alreadyHaveAnAccount":
             MessageLookupByLibrary.simpleMessage("Already have an account?"),
         "anErrorOccurred": MessageLookupByLibrary.simpleMessage(
@@ -51,6 +53,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "helloIn": MessageLookupByLibrary.simpleMessage("Welcome to"),
         "home": MessageLookupByLibrary.simpleMessage("Home"),
         "hub": MessageLookupByLibrary.simpleMessage("HUB"),
+        "kg": MessageLookupByLibrary.simpleMessage("kg"),
         "login": MessageLookupByLibrary.simpleMessage("Login"),
         "loginSuccessfully":
             MessageLookupByLibrary.simpleMessage("Login Successfully"),
@@ -70,11 +73,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "ourTermsAndConditions":
             MessageLookupByLibrary.simpleMessage("our Terms & Conditions"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
+        "payment": MessageLookupByLibrary.simpleMessage("Payment"),
         "products": MessageLookupByLibrary.simpleMessage("Products"),
         "productsInYourCart": MessageLookupByLibrary.simpleMessage(
             "products in your shopping cart"),
         "profile": MessageLookupByLibrary.simpleMessage("Profile"),
+        "removeProductFromCart": MessageLookupByLibrary.simpleMessage(
+            "Product has been removed from the cart"),
         "results": MessageLookupByLibrary.simpleMessage("Results"),
+        "sdg": MessageLookupByLibrary.simpleMessage("SDG"),
         "searchAndShop":
             MessageLookupByLibrary.simpleMessage("Search and Shop"),
         "searchFor": MessageLookupByLibrary.simpleMessage("Search for..."),
