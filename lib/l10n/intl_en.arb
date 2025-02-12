@@ -48,5 +48,9 @@
     "sdg": "SDG",
     "addProductInCart": "Product has been added to the cart",
     "payment": "Payment",
-    "removeProductFromCart": "Product has been removed from the cart"
+    "removeProductFromCart": "Product has been removed from the cart",
+    "addProductToCart": "Add product to cart",
+    "shipping": "Shipping",
+    "address": "Address",
+    "review": "Review"
 }

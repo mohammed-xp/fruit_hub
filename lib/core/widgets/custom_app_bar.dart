@@ -40,7 +40,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
                 }
               },
             )
-          : null,
+          : const SizedBox(),
       actions: [
         if (navigationIcon ?? false)
           const Padding(

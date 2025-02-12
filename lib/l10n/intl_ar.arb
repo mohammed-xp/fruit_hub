@@ -48,5 +48,9 @@
     "sdg": "جنيه",
     "addProductInCart": "تمت إضافة المنتج إلى السلة",
     "payment": "الدفع",
-    "removeProductFromCart": "تمت إزالة المنتج من السلة"
+    "removeProductFromCart": "تمت إزالة المنتج من السلة",
+    "addProductToCart": "قم بإضافة منتجات للسلة",
+    "shipping": "الشحن",
+    "address": "العنوان",
+    "review": "المراجعة"
 }

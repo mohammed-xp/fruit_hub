@@ -28,6 +28,9 @@ class MessageLookup extends MessageLookupByLibrary {
             "ليس لديك منتجات في سلة التسوق الخاصة بك"),
         "addProductInCart":
             MessageLookupByLibrary.simpleMessage("تمت إضافة المنتج إلى السلة"),
+        "addProductToCart":
+            MessageLookupByLibrary.simpleMessage("قم بإضافة منتجات للسلة"),
+        "address": MessageLookupByLibrary.simpleMessage("العنوان"),
         "alreadyHaveAnAccount":
             MessageLookupByLibrary.simpleMessage("تمتلك حساب بالفعل؟"),
         "anErrorOccurred": MessageLookupByLibrary.simpleMessage(
@@ -81,9 +84,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "removeProductFromCart":
             MessageLookupByLibrary.simpleMessage("تمت إزالة المنتج من السلة"),
         "results": MessageLookupByLibrary.simpleMessage("نتائج"),
+        "review": MessageLookupByLibrary.simpleMessage("المراجعة"),
         "sdg": MessageLookupByLibrary.simpleMessage("جنيه"),
         "searchAndShop": MessageLookupByLibrary.simpleMessage("ابحث وتسوق"),
         "searchFor": MessageLookupByLibrary.simpleMessage("ابحث عن..."),
+        "shipping": MessageLookupByLibrary.simpleMessage("الشحن"),
         "shopNow": MessageLookupByLibrary.simpleMessage("تسوق الآن"),
         "shoppingCart": MessageLookupByLibrary.simpleMessage("سلة التسوق"),
         "skip": MessageLookupByLibrary.simpleMessage("تخط"),

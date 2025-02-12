@@ -28,6 +28,9 @@ class MessageLookup extends MessageLookupByLibrary {
             "You have no products in your shopping cart"),
         "addProductInCart": MessageLookupByLibrary.simpleMessage(
             "Product has been added to the cart"),
+        "addProductToCart":
+            MessageLookupByLibrary.simpleMessage("Add product to cart"),
+        "address": MessageLookupByLibrary.simpleMessage("Address"),
         "alreadyHaveAnAccount":
             MessageLookupByLibrary.simpleMessage("Already have an account?"),
         "anErrorOccurred": MessageLookupByLibrary.simpleMessage(
@@ -81,10 +84,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "removeProductFromCart": MessageLookupByLibrary.simpleMessage(
             "Product has been removed from the cart"),
         "results": MessageLookupByLibrary.simpleMessage("Results"),
+        "review": MessageLookupByLibrary.simpleMessage("Review"),
         "sdg": MessageLookupByLibrary.simpleMessage("SDG"),
         "searchAndShop":
             MessageLookupByLibrary.simpleMessage("Search and Shop"),
         "searchFor": MessageLookupByLibrary.simpleMessage("Search for..."),
+        "shipping": MessageLookupByLibrary.simpleMessage("Shipping"),
         "shopNow": MessageLookupByLibrary.simpleMessage("Shop now"),
         "shoppingCart": MessageLookupByLibrary.simpleMessage("Shopping Cart"),
         "skip": MessageLookupByLibrary.simpleMessage("Skip"),

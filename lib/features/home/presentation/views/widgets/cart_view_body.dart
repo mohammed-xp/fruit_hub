@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:fruit_hub/core/helper_functions/build_toast.dart';
+import 'package:fruit_hub/features/checkout/presentation/views/checkout_view.dart';
 import 'package:fruit_hub/features/home/presentation/cubits/cart_cubit/cart_cubit.dart';
 import 'package:fruit_hub/features/home/presentation/views/widgets/cart_item_list.dart';
 import 'package:fruit_hub/features/home/presentation/views/widgets/cart_view_header.dart';
@@ -59,7 +61,17 @@ class CartViewBody extends StatelessWidget {
           left: 16,
           right: 16,
           child: CartViewButton(
-            onPressed: () {},
+            onPressed: () {
+              if (context.read<CartCubit>().cartEntity.cartItems.isEmpty) {
+                buildToast(
+                  context,
+                  message: S.of(context).addProductToCart,
+                  state: ToastStates.WARNING,
+                );
+              } else {
+                Navigator.pushNamed(context, CheckoutView.routeName);
+              }
+            },
           ),
         ),
       ],
