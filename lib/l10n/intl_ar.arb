@@ -58,5 +58,9 @@
     
     "payOnline": "الدفع اونلاين",
     "pleaseSelectPaymentMethod": "يرجى تحديد طريقة الدفع",
-    "next": "التالي"
+    "next": "التالي",
+    "city": "المدينة",
+    "floorNumberAndApartmentNumber": "رقم الطابق، رقم الشقة..",
+    "phoneNumber":"رقم الهاتف",
+    "saveAddress": "حفظ العنوان"
 }

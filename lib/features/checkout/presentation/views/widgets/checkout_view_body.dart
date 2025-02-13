@@ -39,6 +39,7 @@ class _CheckoutViewBodyState extends State<CheckoutViewBody> {
             height: 24,
           ),
           Expanded(
+            flex: 5,
             child: CheckoutStepsPageView(pageController: _pageController),
           ),
           CustomButton(

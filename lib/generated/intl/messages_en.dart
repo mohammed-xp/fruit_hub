@@ -41,6 +41,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "cart": MessageLookupByLibrary.simpleMessage("Cart"),
         "cashOnDelivery":
             MessageLookupByLibrary.simpleMessage("Cash on Delivery"),
+        "city": MessageLookupByLibrary.simpleMessage("City"),
         "createANewAccount":
             MessageLookupByLibrary.simpleMessage("Create a new account"),
         "createAccount": MessageLookupByLibrary.simpleMessage("Create Account"),
@@ -51,6 +52,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "email": MessageLookupByLibrary.simpleMessage("Email"),
         "failerToGetProducts":
             MessageLookupByLibrary.simpleMessage("Failed to get products"),
+        "floorNumberAndApartmentNumber": MessageLookupByLibrary.simpleMessage(
+            "Floor number, Apartment number.."),
         "forgotPassword":
             MessageLookupByLibrary.simpleMessage("Forgot Password?"),
         "fruit": MessageLookupByLibrary.simpleMessage("Fruit"),
@@ -83,6 +86,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "password": MessageLookupByLibrary.simpleMessage("Password"),
         "payOnline": MessageLookupByLibrary.simpleMessage("Pay online"),
         "payment": MessageLookupByLibrary.simpleMessage("Payment"),
+        "phoneNumber": MessageLookupByLibrary.simpleMessage("Phone Number"),
         "pleaseSelectPaymentMethod": MessageLookupByLibrary.simpleMessage(
             "Please select payment method"),
         "products": MessageLookupByLibrary.simpleMessage("Products"),
@@ -93,6 +97,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Product has been removed from the cart"),
         "results": MessageLookupByLibrary.simpleMessage("Results"),
         "review": MessageLookupByLibrary.simpleMessage("Review"),
+        "saveAddress": MessageLookupByLibrary.simpleMessage("Save Address"),
         "sdg": MessageLookupByLibrary.simpleMessage("SDG"),
         "searchAndShop":
             MessageLookupByLibrary.simpleMessage("Search and Shop"),

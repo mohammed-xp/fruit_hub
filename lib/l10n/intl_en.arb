@@ -57,5 +57,9 @@
     "deliveryFromThePlace": "Delivery from the place",
     "payOnline": "Pay online",
     "pleaseSelectPaymentMethod": "Please select payment method",
-    "next": "Next"
+    "next": "Next",
+    "city": "City",
+    "floorNumberAndApartmentNumber": "Floor number, Apartment number..",
+    "phoneNumber": "Phone Number",
+    "saveAddress": "Save Address"
 }

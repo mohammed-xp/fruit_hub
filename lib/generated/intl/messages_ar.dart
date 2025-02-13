@@ -41,6 +41,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "cart": MessageLookupByLibrary.simpleMessage("السلة"),
         "cashOnDelivery":
             MessageLookupByLibrary.simpleMessage("الدفع عند الاستلام"),
+        "city": MessageLookupByLibrary.simpleMessage("المدينة"),
         "createANewAccount":
             MessageLookupByLibrary.simpleMessage("إنشاء حساب جديد"),
         "createAccount": MessageLookupByLibrary.simpleMessage("قم بإنشاء حساب"),
@@ -51,6 +52,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "email": MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
         "failerToGetProducts": MessageLookupByLibrary.simpleMessage(
             "حدث خطأ في الحصول على المنتجات"),
+        "floorNumberAndApartmentNumber":
+            MessageLookupByLibrary.simpleMessage("رقم الطابق، رقم الشقة.."),
         "forgotPassword":
             MessageLookupByLibrary.simpleMessage("نسيت كلمة المرور؟"),
         "fruit": MessageLookupByLibrary.simpleMessage("Fruit"),
@@ -83,6 +86,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
         "payOnline": MessageLookupByLibrary.simpleMessage("الدفع اونلاين"),
         "payment": MessageLookupByLibrary.simpleMessage("الدفع"),
+        "phoneNumber": MessageLookupByLibrary.simpleMessage("رقم الهاتف"),
         "pleaseSelectPaymentMethod":
             MessageLookupByLibrary.simpleMessage("يرجى تحديد طريقة الدفع"),
         "products": MessageLookupByLibrary.simpleMessage("المنتجات"),
@@ -93,6 +97,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("تمت إزالة المنتج من السلة"),
         "results": MessageLookupByLibrary.simpleMessage("نتائج"),
         "review": MessageLookupByLibrary.simpleMessage("المراجعة"),
+        "saveAddress": MessageLookupByLibrary.simpleMessage("حفظ العنوان"),
         "sdg": MessageLookupByLibrary.simpleMessage("جنيه"),
         "searchAndShop": MessageLookupByLibrary.simpleMessage("ابحث وتسوق"),
         "searchFor": MessageLookupByLibrary.simpleMessage("ابحث عن..."),
