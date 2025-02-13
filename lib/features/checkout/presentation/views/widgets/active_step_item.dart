@@ -4,10 +4,11 @@ import 'package:svg_flutter/svg.dart';
 import '../../../../../core/utils/app_color.dart';
 import '../../../../../core/utils/app_images.dart';
 import '../../../../../core/utils/app_styles.dart';
-import '../../../../../generated/l10n.dart';
 
 class ActiveStepItem extends StatelessWidget {
-  const ActiveStepItem({super.key});
+  const ActiveStepItem({super.key, required this.text});
+
+  final String text;
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +21,7 @@ class ActiveStepItem extends StatelessWidget {
         ),
         const SizedBox(width: 4),
         Text(
-          S.of(context).shipping,
+          text,
           style: AppStyles.styleBold13(context).copyWith(
             color: AppColor.primaryColor,
           ),

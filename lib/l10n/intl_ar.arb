@@ -52,5 +52,11 @@
     "addProductToCart": "قم بإضافة منتجات للسلة",
     "shipping": "الشحن",
     "address": "العنوان",
-    "review": "المراجعة"
+    "review": "المراجعة",
+    "cashOnDelivery": "الدفع عند الاستلام",
+    "deliveryFromThePlace": "التسليم من المكان",
+    
+    "payOnline": "الدفع اونلاين",
+    "pleaseSelectPaymentMethod": "يرجى تحديد طريقة الدفع",
+    "next": "التالي"
 }

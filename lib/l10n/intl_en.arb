@@ -52,5 +52,10 @@
     "addProductToCart": "Add product to cart",
     "shipping": "Shipping",
     "address": "Address",
-    "review": "Review"
+    "review": "Review",
+    "cashOnDelivery": "Cash on Delivery",
+    "deliveryFromThePlace": "Delivery from the place",
+    "payOnline": "Pay online",
+    "pleaseSelectPaymentMethod": "Please select payment method",
+    "next": "Next"
 }

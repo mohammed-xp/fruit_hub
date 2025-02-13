@@ -39,9 +39,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "byCreateingAccount": MessageLookupByLibrary.simpleMessage(
             "By creating an account, you agree to"),
         "cart": MessageLookupByLibrary.simpleMessage("Cart"),
+        "cashOnDelivery":
+            MessageLookupByLibrary.simpleMessage("Cash on Delivery"),
         "createANewAccount":
             MessageLookupByLibrary.simpleMessage("Create a new account"),
         "createAccount": MessageLookupByLibrary.simpleMessage("Create Account"),
+        "deliveryFromThePlace":
+            MessageLookupByLibrary.simpleMessage("Delivery from the place"),
         "dontHaveAccount":
             MessageLookupByLibrary.simpleMessage("Don\'\'t have an account?"),
         "email": MessageLookupByLibrary.simpleMessage("Email"),
@@ -68,6 +72,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Login with Google"),
         "more": MessageLookupByLibrary.simpleMessage("More"),
         "newAccount": MessageLookupByLibrary.simpleMessage("New Account"),
+        "next": MessageLookupByLibrary.simpleMessage("Next"),
         "onBoardingSubTitle1": MessageLookupByLibrary.simpleMessage(
             "Discover a unique shopping experience with FruitHUB. Explore our wide range of premium fresh fruits and get the best deals and high quality."),
         "onBoardingSubTitle2": MessageLookupByLibrary.simpleMessage(
@@ -76,7 +81,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "ourTermsAndConditions":
             MessageLookupByLibrary.simpleMessage("our Terms & Conditions"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
+        "payOnline": MessageLookupByLibrary.simpleMessage("Pay online"),
         "payment": MessageLookupByLibrary.simpleMessage("Payment"),
+        "pleaseSelectPaymentMethod": MessageLookupByLibrary.simpleMessage(
+            "Please select payment method"),
         "products": MessageLookupByLibrary.simpleMessage("Products"),
         "productsInYourCart": MessageLookupByLibrary.simpleMessage(
             "products in your shopping cart"),

@@ -39,9 +39,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "byCreateingAccount": MessageLookupByLibrary.simpleMessage(
             "من خلال إنشاء حساب ، فإنك توافق على"),
         "cart": MessageLookupByLibrary.simpleMessage("السلة"),
+        "cashOnDelivery":
+            MessageLookupByLibrary.simpleMessage("الدفع عند الاستلام"),
         "createANewAccount":
             MessageLookupByLibrary.simpleMessage("إنشاء حساب جديد"),
         "createAccount": MessageLookupByLibrary.simpleMessage("قم بإنشاء حساب"),
+        "deliveryFromThePlace":
+            MessageLookupByLibrary.simpleMessage("التسليم من المكان"),
         "dontHaveAccount":
             MessageLookupByLibrary.simpleMessage("ليس لديك حساب؟"),
         "email": MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
@@ -68,6 +72,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("تسجيل بواسطة جوجل"),
         "more": MessageLookupByLibrary.simpleMessage("المزيد"),
         "newAccount": MessageLookupByLibrary.simpleMessage("حساب جديد"),
+        "next": MessageLookupByLibrary.simpleMessage("التالي"),
         "onBoardingSubTitle1": MessageLookupByLibrary.simpleMessage(
             "اكتشف تجربة تسوق فريدة مع FruitHUB. استكشف مجموعتنا الواسعة من الفواكه الطازجة الممتازة واحصل على أفضل العروض والجودة العالية."),
         "onBoardingSubTitle2": MessageLookupByLibrary.simpleMessage(
@@ -76,7 +81,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "ourTermsAndConditions":
             MessageLookupByLibrary.simpleMessage("الشروط والأحكام الخاصة بنا"),
         "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
+        "payOnline": MessageLookupByLibrary.simpleMessage("الدفع اونلاين"),
         "payment": MessageLookupByLibrary.simpleMessage("الدفع"),
+        "pleaseSelectPaymentMethod":
+            MessageLookupByLibrary.simpleMessage("يرجى تحديد طريقة الدفع"),
         "products": MessageLookupByLibrary.simpleMessage("المنتجات"),
         "productsInYourCart": MessageLookupByLibrary.simpleMessage(
             "منتجات في سلة التسوق الخاصة بك"),
